@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="test">
+        <img src="./image/timg.jpg" alt="">
+        <div class="con1">
+            <span class="won1"></span>
+            <span class="won7"></span>
+            
+        </div>
+        <div class="con2">
+            <span class="won11"></span>
+            <span class="won5"></span>
+           
+        </div>
+        <div class="con3">
+            <span class="won6"></span>
+            <span class="won9"></span>
+            
+        </div>
+        <div class="con4">
+                <span class="won10"></span>
+                <!-- <span class="won2"></span> -->
+        </div>
+        <div class="con5">
+                <span class="won8"></span>
+                <!-- <span class="won4"></span> -->
+        </div>
+        <div class="con6">
+            <span class="won12"></span>
+           
+            <span class="won14"></span>
+           
+            
+            <span class="won17"></span>
+    </div>
+    <div class="con7">
+        <span class="won13"></span>
+        <!-- <span class="won16"></span> -->
+</div>
+<div class="con8">
+    <span class="won18"></span>
+    <span class="won19"></span>
+    <!-- <span class="won20"></span> -->
+    
+</div>
+<div class="con9">
+    <span class="won21"></span>
+    <span class="won15"></span>
+    <!-- <span class="won3"></span> -->
+</div>
+    </div>
+</body>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    #test {
+        width: 1030px;
+        height: 830px;
+        margin-left: 25%;
+        position: relative;
+        margin-top: 80px
+    }
+
+    img {
+        width: 830px;
+        height: 530px;
+    }
+
+    .con1 {
+        position: absolute;
+        left: 380px;
+        width: 100px;
+        top: 10px;
+
+    }
+
+    .con2 {
+        position: absolute;
+        left: 380px;
+        width: 100px;
+        top: 10px;
+
+    }
+
+    .con3 {
+        position: absolute;
+        left: 380px;
+        width: 100px;
+        top: 10px;
+
+    }
+    .con4 {
+        position: absolute;
+        left: 380px;
+        width: 100px;
+        top: 10px;
+
+    }
+    .con5 {
+        position: absolute;
+        left: 380px;
+        width: 100px;
+        top: 10px;
+
+    }
+    .con6 {
+        position: absolute;
+        left: 380px;
+        width: 100px;
+        top: 10px;
+
+    }
+    .con7 {
+        position: absolute;
+        left: 380px;
+        width: 100px;
+        top: 10px;
+
+    }
+    .con8 {
+        position: absolute;
+        left: 380px;
+        width: 100px;
+        top: 10px;
+
+    }
+    .con9 {
+        position: absolute;
+        left: 380px;
+        width: 100px;
+        top: 10px;
+
+    }
+
+    .con1>span {
+        position: absolute;
+        left: 130px;
+        top: 350px;
+        display: inline-block;
+        margin: 20px;
+        width: 10px;
+        height: 10px;
+        border-radius: 50% 50% 10% 50%;
+        border:1px solid white;
+        animation-name: move;
+        animation-duration: 14s;
+        animation-iteration-count:1;
+        animation-direction: alternate;
+        animation-timing-function: linear;
+        animation-fill-mode : none 
+    }
+
+    .con2>span {
+        position: absolute;
+        left: 130px;
+        top: 350px;
+        display: inline-block;
+        margin: 20px;
+        width: 10px;
+        height: 10px;
+        border-radius: 50% 50% 10% 50%;
+        border:1px solid white;
+        animation-name: move2;
+        animation-duration: 16s;
+        animation-iteration-count: 1;
+        animation-direction: alternate;
+        animation-timing-function: linear;
+    }
+
+    .con3>span {
+        position: absolute;
+        left: 130px;
+        top: 350px;
+        display: inline-block;
+        margin: 20px;
+        width: 10px;
+        height: 10px;
+        border-radius: 50% 50% 10% 50%;
+        border:1px solid white;
+        animation-name: move3;
+        animation-duration: 13s;
+        animation-iteration-count: 1;
+        animation-direction: alternate;
+        animation-timing-function: linear;
+    }
+    .con4>span {
+        position: absolute;
+        left: 130px;
+        top: 350px;
+        display: inline-block;
+        margin: 20px;
+        width: 10px;
+        height: 10px;
+        border-radius: 50% 50% 10% 50%;
+        border:1px solid white;
+        animation-name: move4;
+        animation-duration: 15s;
+        animation-iteration-count: 1;
+        animation-direction: alternate;
+        animation-timing-function: linear;
+    }
+    .con5>span {
+        position: absolute;
+        left: 130px;
+        top: 350px;
+        display: inline-block;
+        margin: 20px;
+        width: 10px;
+        height: 10px;
+        border-radius: 50% 50% 10% 50%;
+        border:1px solid white;
+        animation-name: move5;
+        animation-duration: 10s;
+        animation-iteration-count: 1;
+        animation-direction: alternate;
+        animation-timing-function: linear;
+
+    }
+    .con6>span {
+        position: absolute;
+        left: 130px;
+        top: 350px;
+        display: inline-block;
+        margin: 20px;
+        width: 10px;
+        height: 10px;
+        border-radius: 50% 50% 10% 50%;
+        border:1px solid white;
+        animation-name: move6;
+        animation-duration: 10s;
+        animation-iteration-count: 1;
+        animation-direction: alternate;
+        animation-timing-function: linear;
+
+    }
+    .con7>span {
+        position: absolute;
+        left: 130px;
+        top: 350px;
+        display: inline-block;
+        margin: 20px;
+        width: 10px;
+        height: 10px;
+        border:1px solid white;
+        border-radius: 50% 50% 10% 50%;
+        animation-name: move7;
+        animation-duration: 10s;
+        animation-iteration-count: 1;
+        animation-direction: alternate;
+        animation-timing-function: linear;
+
+    }
+    .con8>span {
+        position: absolute;
+        left: 130px;
+        top: 350px;
+        display: inline-block;
+        margin: 20px;
+        width: 10px;
+        height: 10px;
+        border-radius: 50% 50% 10% 50%;
+        border:1px solid white;
+        animation-name: move8;
+        animation-duration: 10s;
+        animation-iteration-count: 1;
+        animation-direction: alternate;
+        animation-timing-function: linear;
+
+    }
+    .con9>span {
+        position: absolute;
+        left: 130px;
+        top: 350px;
+        display: inline-block;
+        margin: 20px;
+        width: 10px;
+        height: 10px;
+        border-radius: 50% 50% 10% 50%;
+        border:1px solid white;
+        animation-name: move9;
+        animation-duration: 10s;
+        animation-iteration-count: 1;
+        animation-direction: alternate;
+        animation-timing-function: linear;
+
+    }
+
+    .won {
+        background: green;
+    }
+
+    .won1 {
+        background: green;
+        animation-delay: 1s
+    }
+
+    .won2 {
+        background: green;
+        animation-delay: 2.5s
+    }
+
+    .won3 {
+        background: #321521;
+        animation-delay: 4s
+    }
+
+    .won4 {
+        background: green;
+        animation-delay: 5.5s
+    }
+
+    .won5 {
+        background: #751554;
+        animation-delay: 6s
+    }
+
+    .won6 {
+        background: green;
+        animation-delay: 7s
+    }
+
+    .won7 {
+        background: green;
+        animation-delay: 8s
+    }
+
+    .won8 {
+        background: #568521;
+        animation-delay: 8.5s
+    }
+
+    .won9 {
+        background: green;
+        animation-delay: 10s
+    }
+
+    .won10 {
+        background: green;
+        animation-delay: 11s
+    }
+
+    .won11 {
+        background: green;
+        animation-delay: 5.3s
+    }
+    .won12 {
+        background: green;
+        animation-delay:2s
+    }
+    .won13 {
+        background: green;
+        animation-delay: 3s
+    }
+    .won14 {
+        background: green;
+        animation-delay: 4s
+    }
+    .won15 {
+        background: green;
+        animation-delay:5.8s
+    }
+    .won16 {
+        background: green;
+        animation-delay: 1s
+    }
+    .won17 {
+        background: green;
+        animation-delay: 8s
+    }
+    .won18 {
+        background: green;
+        animation-delay: 7s
+    }
+    .won19 {
+        background: green;
+        animation-delay: 3s
+    }
+    .won20 {
+        background: green;
+        animation-delay: 10s
+    }
+    .won21 {
+        background: green;
+        animation-delay: 12s
+    }
+   
+    @keyframes move{
+       
+        0% {
+            transform: translate(0) scale(0.5)
+        }
+
+        20% {
+            background: green;
+            transform: translate(30px, -45px) scale(0.8)
+        }
+
+        30% {
+            background: green;
+            transform: translate(-2px, -60px)
+        }
+
+        50% {
+            background: green;
+            transform: translate(80px, -150px)
+        }
+
+        70% {
+            transform: translate(100px, -350px) scale(0)
+        }
+        100% {
+            transform: translate(100px,-350px) scale(0);
+            
+           
+        }
+        
+    }
+
+
+    @keyframes move2 {
+        0% {
+            transform: translate(0) scale(1)
+        }
+
+        20% {
+            background: green;
+            transform: translate(30px, -45px) scale(0.8)
+        }
+
+        30% {
+            background: green;
+            transform: translate(-70px, -100px) scale(1)
+        }
+        50% {
+            background: green;
+            transform: translate(-120px, -110px)
+        }
+        60% {
+            background: green;
+            transform: translate(-100px, -140px)
+        }
+        70% {
+            background: green;
+            transform: translate(-120px, -320px)
+        }
+
+        100% {
+            transform: translate(-120px, -320px) scale(0)
+        }
+    }
+
+    @keyframes move3{
+        0% {
+            transform: translate(0) scale(1)
+        }
+
+        20% {
+            background: green;
+            transform: translate(20px, -45px) scale(0.8)
+        }
+
+        30% {
+            background: green;
+            transform: translate(-70px, -100px) scale(1)
+        }
+
+        50% {
+            background: green;
+            transform: translate(-120px, -110px)
+        }
+
+        60% {
+            background: green;
+            transform: translate(-140px, -200px)
+        }
+
+        100% {
+            transform: translate(0, -100px) scale(0)
+        }
+    }
+    @keyframes move4 {
+        0% {
+            transform: translate(0) scale(1)
+        }
+        10% {
+            transform: translate(10px,-30px) 
+        }
+        20% {
+            transform: translate(-20px,-50px) 
+        }
+        30% {
+            transform: translate(-40px,-70px) 
+        }
+        40% {
+            transform: translate(-80px,-80px) 
+        }
+
+        50% {
+            background: green;
+            transform: translate(-120px, -90px)
+        }
+
+        60% {
+            background: green;
+            transform: translate(-140px, -110px)
+        }
+
+        70% {
+            background: green;
+            transform: translate(-170px, -140px)
+        }
+
+        80% {
+            transform: translate(-190px, -150px)
+        }
+       
+        100% {
+            transform: translate(-190px, -300px) scale(2)
+        }
+    }
+    @keyframes move5 {
+        0% {
+            transform: translate(0) scale(1)
+        }
+        10%{
+            transform:translate(50px,-50px)
+        }
+        20%{
+            transform:translate(-30px,-70px)
+        }
+        30%{
+            transform:translate(-100px,-90px)
+        }
+        40%{
+            transform:translate(-120px,-100px)
+        }
+        50%{
+            transform:translate(-160px,-60px)
+        }
+        60%{
+            transform:translate(-250px,-60px)
+        }
+        70%{
+            transform:translate(-280px,-30px)
+        }
+        80%{
+            transform:translate(-300px,10px)
+        }
+        100%{
+            transform:translate(-300px,-300px) scale(0)
+        }
+
+      
+    }
+    @keyframes move6 {
+        0% {
+            transform: translate(0) scale(1)
+        }
+        30%{
+            transform:translate(50px,-60px)
+        }
+        50%{
+            transform:translate(-30px,-70px)
+        }
+        60%{
+            transform:translate(-10px,-270px)
+        }
+        70%{
+            transform:translate(-120px,-280px)
+        }
+        80%{
+            transform:translate(-70px,-270px)
+        }
+        100%{
+            transform:translate(10px,-270px) scale(1.5)
+        }
+      
+    }
+    @keyframes move7 {
+        0% {
+            transform: translate(0) scale(1)
+        }
+        30%{
+            transform:translate(50px,-60px)
+        }
+        50%{
+            transform:translate(-30px,-70px)
+        }
+        80%{
+            transform:translate(-120px,-400px)
+        }
+        100%{
+            transform:translate(-120px,-400px) scale(1.5)
+        }
+      
+    }
+    @keyframes move8{
+        0% {
+            transform: translate(0) scale(1)
+        }
+        30%{
+            transform:translate(50px,-60px)
+        }
+        40%{
+            transform:translate(-30px,-70px)
+        }
+        60%{
+            transform:translate(-160px,-80px)
+        }
+        80%{
+            transform:translate(-300px,-30px) 
+        }
+        100%{
+            transform:translate(-300px,-350px) scale(0)
+        }
+      
+    }
+    @keyframes move9{
+        0% {
+            transform: translate(0) scale(1)
+        }
+        30%{
+            transform:translate(40px,-50px)
+        }
+        40%{
+            transform:translate(-30px,-80px)
+        }
+        60%{
+            transform:translate(20px,-130px)
+        }
+        80%{
+            transform:translate(10px,-300px) 
+        }
+        90%{
+            transform:translate(30px,-280px) 
+        }
+        100%{
+            transform:translate(30px,-280px) scale(1.5)
+        }
+      
+    }
+</style>
+
+</html>
